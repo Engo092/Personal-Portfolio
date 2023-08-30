@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <button class="navButton" id="about"><img src="assets/svgs/header/about.svg" alt="" class="navIcon" id="about">About</button>
+                <button class="navButton" id="projects"><img src="assets/svgs/header/work.svg" alt="" class="navIcon" id="projects">Projects</button>
+                <button class="navButton" id="contact"><img src="assets/svgs/header/contact.svg" alt="" class="navIcon" id="contact">Contact</button>
+            </nav>
+            <section class="introduction">
+                <h1>Hello, I'm <span>Enzo Kusuki</span></h1>
+                <p>A full-stack web developer.</p>
+            </section>
+        </header>
+        
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Enzo Kusuki, a full-stack web developer.
+                <br><br>
+                Ever since I was a kid, I have always had an affinity with technologies and
+                computer-related topics. So much so that I decided to start programming in 2020,
+                during the pandemic, after reflecting upon what I wanted to do as a professional career.<br><br>
+                From that point onwards, I have developed a huge interest in anything related to web development, and am
+                always in search of new projects to create, as to challenge myself and learn along the way.
+                I always strive to create beautiful and responsive websites, with various fun and different functionalities.
+                <br><br>Other than coding, I also love to play the electric guitar, and I would say that I can play quite well overall.
+                <br><br>Check out my skillset!
+            </p>
+            <div class="logos">
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" />
+                    <span>Git</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" />
+                    <span>HTML</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" />
+                    <span>CSS</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
+                    <span>Javascript</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="" />
+                    <span>Npm</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="" />
+                    <span>Visual Studio</span>
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="" />
+                    <span>Webpack</span>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>My Work</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img 
+                    srcset="assets/projects/low/battleship.png 1370w, assets/projects/battleship.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/battleship.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Battleship</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/Battleship" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            Complete battleship game with functional AI, created using Javascript and
+                            Webpack.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img
+                    srcset="assets/projects/low/weather-app.png 1370w, assets/projects/weather-app.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/weather-app.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Weather App</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/Weather-App" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            This website receives a city name as input, and returns its weather data
+                            using the OpenWeatherApp API. Uses Javascript promises.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img
+                    srcset="assets/projects/low/todo-list.png 1370w, assets/projects/todo-list.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/todo-list.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Todo List</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/todo-lists" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            As the name suggests, this site functions as a todo list, storing tasks
+                            with priority and due date to be checked off. Uses Webpack and Javascript.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img srcset="assets/projects/low/restaurant-page.png 1370w, assets/projects/restaurant-page.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/restaurant-page.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Restaurant Page</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/restaurant-page" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            A mockup restaurant page dynamically created purely with Webpack and Javascript.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img srcset="assets/projects/low/tic-tac-toe.png 1370w, assets/projects/tic-tac-toe.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/tic-tac-toe.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Tic Tac Toe</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/Tic-Tac-Toe" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            A tic tac toe game. Sounds simple enough? Well, it has the option of facing an unbeatable AI as well!
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img srcset="assets/projects/low/calculator.png 1370w, assets/projects/calculator.png 1920w"
+                    sizes="(max-width: 987px) 1370px,
+                            1920px"
+                    src="assets/projects/calculator.png" alt="">
+                    <div class="desc">
+                        <span>
+                            <h3>Calculator</h3>
+                            <div>
+                                <a href="https://github.com/Engo092/Calculator" target="_blank"><i class="devicon-github-original colored"></i></a>
+                            </div>
+                        </span>
+                        <p>
+                            A calculator made with Javascript. Other than the four basic math functions,
+                            also includes the factorial and exponential functions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h2>Contact Me!</h2>
+            <p>
+                Please get in touch if you have an opportunity, a project idea for us to
+                work together, or even if you just want to chat, I'm open for anything.
+            </p>
+            <span class="contact-info">
+                <p>
+                    Rua Copo de Leite, 175, Ibiúna, São Paulo, Brazil
+                    <br><br>
+                    (15) 99796-5858
+                    <br>
+                    enzokusuki@gmail.com
+                </p>
+                <span class="contact-logos">
+                    <a href="https://github.com/Engo092" target="_blank"><i class="devicon-github-original"></i></a>
+                    <a href="https://www.linkedin.com/in/enzo-kusuki-098245217/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+                </span>
+            </span>
+        </footer>
+    </main>
+</body>
+</html>
