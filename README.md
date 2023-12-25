@@ -13,11 +13,11 @@ In the end, I'm pretty proud of how this site turned, as it served as a very ric
 The most recent update (Version 1.1) has completely remastered this project from the ground up, upgrading it to React and adding other improvements in layout.
 
 Version 1.1 changelog:
-    * Updated the project to use React
-    * Added more icons as part of my 'skillset'
-    * Changed the projects showcased under 'My Work' and their descriptions
-    * Made the page text bigger overall
-    * Upscaled the 'Contact Me' section
-    * Changed the 'About Me' section paragraph by adding a white box behind the text
-    * Improved mobile device compatibilitiy
-    * Header is now fixed at the top of the page
+* Updated the project to use React
+* Added more icons as part of my 'skillset'
+* Changed the projects showcased under 'My Work' and their descriptions
+* Made the page text bigger overall
+* Upscaled the 'Contact Me' section
+* Changed the 'About Me' section paragraph by adding a white box behind the text
+* Improved mobile device compatibilitiy
+* Header is now fixed at the top of the page
