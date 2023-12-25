@@ -1,0 +1,155 @@
+header {
+    background: linear-gradient(#111827, #172554);
+    box-shadow: 0 14px 22px lightgray;
+}
+
+header nav {
+    width: 100vw;
+    animation: nav-fade-in 7s 1;
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    background-color: #111827cc;
+    backdrop-filter: blur(4px);
+}
+
+nav button {
+    min-width: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    font-size: large;
+    background-color: #ffffff00;
+    color: #f1f5f9c9;
+    border: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navIcon {
+    width: 30px;
+    margin-right: 6px;
+}
+
+nav button:hover {
+    background-color: #ffffff1a;
+    color: #f1f5f9;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+section.introduction {
+    height: 100vh;
+    color: #d6d8da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.introduction h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 48px;
+    animation: intro-fade-in 3s;
+}
+
+section.introduction span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 64px;
+    animation: name-fade-in 4s 1;
+}
+
+section.introduction p{
+    text-align: center;
+    font-size: xx-large;
+    animation: desc-fade-in 6s 1;
+}
+
+
+@media (max-width: 400px) {
+    nav button {
+        min-width: 50px;
+        padding: 15px 10px 15px 10px;
+        font-size: medium;
+    }
+
+    .navIcon {
+        padding: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    header nav {
+        justify-content: center;
+    }
+}
+
+@keyframes intro-fade-in {
+    from {
+        transform: translateY(-100%);
+        opacity: 0%;
+    }
+
+    10% {
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}
+
+@keyframes name-fade-in {
+    from {
+        opacity: 0%;
+    }
+
+
+    50% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes desc-fade-in {
+    from {
+        opacity: 0%;
+    }
+
+    60% {
+        transform: translateY(200%);
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 100%;
+    }
+}
+
+@keyframes nav-fade-in {
+    from {
+        transform: translateY(-400%);
+    }
+
+    60% {
+        transform: translateY(-400%);
+    }
+
+    80% {
+        transform: translateY(20%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
