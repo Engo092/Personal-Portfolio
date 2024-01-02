@@ -62,7 +62,6 @@ section.projects > :not(.animation) {
     background-color: #ffffff00;
     border-radius: 30%;
     color: white;
-    transition: transform 1s;
 }
 
 .desc a:hover {

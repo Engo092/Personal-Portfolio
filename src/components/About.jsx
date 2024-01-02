@@ -76,6 +76,10 @@ function About() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" />
           <span>MongoDB</span>
         </div>
+        <div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+          <span>MySQL</span>
+        </div>
       </div>
     </section>
   );
